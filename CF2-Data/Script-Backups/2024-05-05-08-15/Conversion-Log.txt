@@ -1,0 +1,163 @@
+Converting script [1 / 21]	[\Emerald AI\Demo\Demo Source\Scripts\TopDownCharacterController.cs]
+	Fragments : 3
+		[ 0] : Line:   57	InputMethod   GetMouseButton      	(0)
+		[ 1] : Line:   64	InputProperty mousePosition       
+		[ 2] : Line:   87	InputMethod   GetMouseButtonUp    	(0)
+
+Converting script [2 / 21]	[\Emerald AI\Scripts\Character Controller\EmeraldAIHideMouse.cs]
+	Fragments : 9
+		[ 0] : Line:   13	Other mod.	[Cursor.lockState]
+		[ 1] : Line:   14	Other mod.	[Cursor.lockState]
+		[ 2] : Line:   15	Other mod.	[Cursor.visible]
+		[ 3] : Line:   20	InputMethod   GetKeyDown          	(KeyCode.Escape)
+		[ 4] : Line:   27	Other mod.	[Cursor.lockState]
+		[ 5] : Line:   28	Other mod.	[Cursor.lockState]
+		[ 6] : Line:   29	Other mod.	[Cursor.visible]
+		[ 7] : Line:   34	Other mod.	[Cursor.lockState]
+		[ 8] : Line:   35	Other mod.	[Cursor.visible]
+
+Converting script [3 / 21]	[\Emerald AI\Scripts\Character Controller\FlyCamera.cs]
+	Fragments : 12
+		[ 0] : Line:   18	InputMethod   GetMouseButtonDown  	(1)
+		[ 1] : Line:   20	InputProperty mousePosition       
+		[ 2] : Line:   23	InputMethod   GetMouseButton      	(1)
+		[ 3] : Line:   25	InputProperty mousePosition       
+		[ 4] : Line:   29	InputProperty mousePosition       
+		[ 5] : Line:   34	InputMethod   GetKey              	(KeyCode.LeftShift)
+		[ 6] : Line:   55	InputMethod   GetKey              	(KeyCode.W)
+		[ 7] : Line:   59	InputMethod   GetKey              	(KeyCode.S)
+		[ 8] : Line:   63	InputMethod   GetKey              	(KeyCode.A)
+		[ 9] : Line:   67	InputMethod   GetKey              	(KeyCode.D)
+		[10] : Line:   71	InputMethod   GetKey              	(KeyCode.Q)
+		[11] : Line:   75	InputMethod   GetKey              	(KeyCode.E)
+
+Converting script [4 / 21]	[\Emerald AI\Scripts\Example Scripts\DamageAIByAngle.cs]
+	Fragments : 1
+		[ 0] : Line:   19	InputMethod   GetKeyDown          	(DamageButton)
+
+Converting script [5 / 21]	[\Emerald AI\Scripts\Example Scripts\DamageAIByRaycast.cs]
+	Fragments : 2
+		[ 0] : Line:   26	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   30	InputProperty mousePosition       
+
+Converting script [6 / 21]	[\Emerald AI\Scripts\Example Scripts\MoveToMousePosition.cs]
+	Fragments : 3
+		[ 0] : Line:   27	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   31	InputProperty mousePosition       
+		[ 2] : Line:   78	InputMethod   GetKeyDown          	(KeyCode.Escape)
+
+Converting script [7 / 21]	[\Emerald AI\Scripts\Example Scripts\PlayAIsEmote.cs]
+	Fragments : 1
+		[ 0] : Line:   39	InputMethod   GetKeyDown          	(KeyCode.F)
+
+Converting script [8 / 21]	[\Emerald AI\Scripts\Example Scripts\RaycastHitAI.cs]
+	Fragments : 2
+		[ 0] : Line:   24	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   28	InputProperty mousePosition       
+
+Converting script [9 / 21]	[\Emerald AI\Scripts\Example Scripts\SpawnCompanion.cs]
+	Fragments : 2
+		[ 0] : Line:   17	InputMethod   GetKeyDown          	(KeyCode.Alpha1)
+		[ 1] : Line:   17	InputMethod   GetKeyDown          	(KeyCode.Keypad1)
+
+Converting script [10 / 21]	[\Emerald AI\Scripts\Example Scripts\TameAI.cs]
+	Fragments : 1
+		[ 0] : Line:   24	InputMethod   GetKeyDown          	(KeyCode.F)
+
+Converting script [11 / 21]	[\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs]
+	Fragments : 4
+		[ 0] : Line:   27	InputMethod   GetMouseButtonUp    	(0)
+		[ 1] : Line:   33	InputMethod   GetKeyUp            	(KeyCode.A)
+		[ 2] : Line:   36	InputMethod   GetKeyUp            	(KeyCode.D)
+		[ 3] : Line:   73	InputProperty mousePosition       
+
+Converting script [12 / 21]	[\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs]
+	Fragments : 4
+		[ 0] : Line:   51	InputProperty mousePosition       
+		[ 1] : Line:   51	InputProperty mousePosition       
+		[ 2] : Line:   52	InputProperty mousePosition       
+		[ 3] : Line:   52	InputProperty mousePosition       
+
+Converting script [13 / 21]	[\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs]
+	Fragments : 8
+		[ 0] : Line:   29	InputMethod   GetKeyDown          	(KeyCode.RightArrow)
+		[ 1] : Line:   34	InputMethod   GetKeyDown          	(KeyCode.D)
+		[ 2] : Line:   39	InputMethod   GetKeyDown          	(KeyCode.A)
+		[ 3] : Line:   43	InputMethod   GetKeyDown          	(KeyCode.LeftArrow)
+		[ 4] : Line:   48	InputMethod   GetKeyDown          	(KeyCode.Mouse0)
+		[ 5] : Line:   52	InputProperty mousePosition       
+		[ 6] : Line:   60	InputProperty mousePosition       
+		[ 7] : Line:   60	InputProperty mousePosition       
+
+Converting script [14 / 21]	[\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs]
+	Fragments : 4
+		[ 0] : Line:   38	InputMethod   GetMouseButton      	(1)
+		[ 1] : Line:   40	InputMethod   GetAxis             	("Mouse X")
+		[ 2] : Line:   41	InputMethod   GetAxis             	("Mouse Y")
+		[ 3] : Line:   50	InputMethod   GetAxis             	("Mouse ScrollWheel")
+
+Converting script [15 / 21]	[\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs]
+	Fragments : 4
+		[ 0] : Line:  105	InputMethod   GetKeyDown          	(KeyCode.L)
+		[ 1] : Line:  118	InputMethod   GetKeyDown          	(KeyCode.J)
+		[ 2] : Line:  131	InputMethod   GetKeyDown          	(KeyCode.H)
+		[ 3] : Line:  144	InputMethod   GetKeyDown          	(KeyCode.K)
+
+Converting script [16 / 21]	[\Plugins\IngameDebugConsole\Scripts\DebugLogManager.cs]
+	Fragments : 3
+		[ 0] : Line:  710	InputMethod   GetKeyDown          	(toggleKey )
+		[ 1] : Line:  874	InputMethod   GetKeyDown          	(KeyCode.UpArrow )
+		[ 2] : Line:  891	InputMethod   GetKeyDown          	(KeyCode.DownArrow )
+
+Converting script [17 / 21]	[\Scripts\IDCardScanner.cs]
+	Fragments : 2
+		[ 0] : Line:   24	InputMethod   GetMouseButtonDown  	(0)
+		[ 1] : Line:   33	InputMethod   GetMouseButtonUp    	(0)
+
+Converting script [18 / 21]	[\Scripts\updatecoinsui.cs]
+	Fragments : 2
+		[ 0] : Line:  109	InputMethod   GetKeyDown          	(KeyCode.P)
+		[ 1] : Line:  114	InputMethod   GetKeyDown          	(KeyCode.L)
+
+Converting script [19 / 21]	[\SWS\Examples\Scripts\CameraInputDemo.cs]
+	Fragments : 1
+		[ 0] : Line:   45	InputMethod   GetKeyDown          	(KeyCode.UpArrow)
+
+Converting script [20 / 21]	[\SWS\Examples\Scripts\PathInputDemo.cs]
+	Fragments : 5
+		[ 0] : Line:   50	InputMethod   GetKey              	(KeyCode.RightArrow)
+		[ 1] : Line:   60	InputMethod   GetKey              	(KeyCode.LeftArrow)
+		[ 2] : Line:   69	InputMethod   GetKey              	(KeyCode.RightArrow)
+		[ 3] : Line:   69	InputMethod   GetKey              	(KeyCode.LeftArrow)
+		[ 4] : Line:   81	InputMethod   GetKey              	(KeyCode.LeftArrow)
+
+Converting script [21 / 21]	[\SWS\Examples\Scripts\RapidInputDemo.cs]
+	Fragments : 1
+		[ 0] : Line:   91	InputMethod   GetKeyDown          	(KeyCode.UpArrow)
+
+
+21 scripts modified!
+Overwriting actual scripts...
+	[0 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Demo\Demo Source\Scripts\TopDownCharacterController.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Demo\Demo Source\Scripts\TopDownCharacterController.cs]
+	[1 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Character Controller\EmeraldAIHideMouse.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Character Controller\EmeraldAIHideMouse.cs]
+	[2 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Character Controller\FlyCamera.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Character Controller\FlyCamera.cs]
+	[3 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Example Scripts\DamageAIByAngle.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Example Scripts\DamageAIByAngle.cs]
+	[4 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Example Scripts\DamageAIByRaycast.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Example Scripts\DamageAIByRaycast.cs]
+	[5 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Example Scripts\MoveToMousePosition.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Example Scripts\MoveToMousePosition.cs]
+	[6 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Example Scripts\PlayAIsEmote.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Example Scripts\PlayAIsEmote.cs]
+	[7 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Example Scripts\RaycastHitAI.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Example Scripts\RaycastHitAI.cs]
+	[8 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Example Scripts\SpawnCompanion.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Example Scripts\SpawnCompanion.cs]
+	[9 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Emerald AI\Scripts\Example Scripts\TameAI.cs] to [G:/test/TestBooAli/Assets/\Emerald AI\Scripts\Example Scripts\TameAI.cs]
+	[10 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs] to [G:/test/TestBooAli/Assets/\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs]
+	[11 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs] to [G:/test/TestBooAli/Assets/\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs]
+	[12 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs] to [G:/test/TestBooAli/Assets/\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs]
+	[13 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs] to [G:/test/TestBooAli/Assets/\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs]
+	[14 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs] to [G:/test/TestBooAli/Assets/\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs]
+	[15 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Plugins\IngameDebugConsole\Scripts\DebugLogManager.cs] to [G:/test/TestBooAli/Assets/\Plugins\IngameDebugConsole\Scripts\DebugLogManager.cs]
+	[16 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Scripts\IDCardScanner.cs] to [G:/test/TestBooAli/Assets/\Scripts\IDCardScanner.cs]
+	[17 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\Scripts\updatecoinsui.cs] to [G:/test/TestBooAli/Assets/\Scripts\updatecoinsui.cs]
+	[18 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\SWS\Examples\Scripts\CameraInputDemo.cs] to [G:/test/TestBooAli/Assets/\SWS\Examples\Scripts\CameraInputDemo.cs]
+	[19 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\SWS\Examples\Scripts\PathInputDemo.cs] to [G:/test/TestBooAli/Assets/\SWS\Examples\Scripts\PathInputDemo.cs]
+	[20 / 21] from  [G:/test/TestBooAli/CF2-Data/Script-Backups/2024-05-05-08-15\Assets-After/\SWS\Examples\Scripts\RapidInputDemo.cs] to [G:/test/TestBooAli/Assets/\SWS\Examples\Scripts\RapidInputDemo.cs]
+
+Overwriting COMPLETED!

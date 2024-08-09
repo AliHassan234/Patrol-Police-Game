@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c76abe643ae456ab5b5a5168e028a2, type: 3}
+  m_Name: NPCScriptable
+  m_EditorClassIdentifier: 
+  maleGoodIds:
+  - dateOfBrith: M18/03/2024
+    issueDate: M18/03/2024
+    expiryDate: M18/03/2024
+    name: M18/03/2024
+    gender: M18/03/2024
+    state: M18/03/2024
+    idCardNum: M18/03/2024
+    wrongNum: 0
+    characterSP: {fileID: 0}
+    signatureSP: {fileID: 0}
+  femaleGoodIds:
+  - dateOfBrith: 18/03/2024
+    issueDate: 18/03/2024
+    expiryDate: 18/03/2024
+    name: 18/03/2024
+    gender: 18/03/2024
+    state: 18/03/2024
+    idCardNum: 18/03/2024
+    wrongNum: 0
+    characterSP: {fileID: 0}
+    signatureSP: {fileID: 0}
+  maleBadIds:
+  - dateOfBrith: M00/00/0000
+    issueDate: M00/00/0000
+    expiryDate: M00/00/0000
+    name: M00/00/0000
+    gender: M00/00/0000
+    state: M00/00/0000
+    idCardNum: M00/00/0000
+    wrongNum: 0
+    characterSP: {fileID: 0}
+    signatureSP: {fileID: 0}
+  femaleBadIds:
+  - dateOfBrith: 00/00/0000
+    issueDate: 00/00/0000
+    expiryDate: 00/00/0000
+    name: 00/00/0000
+    gender: 00/00/0000
+    state: 00/00/0000
+    idCardNum: 00/00/0000
+    wrongNum: 0
+    characterSP: {fileID: 0}
+    signatureSP: {fileID: 0}
+  searchGood:
+  - searchItems:
+    - itemName: Phone
+      itemSprite: {fileID: 21300000, guid: b7f415305601d4c70b859f5a65149552, type: 3}
+      isWrong: 0
+    - itemName: Keys
+      itemSprite: {fileID: 21300000, guid: b6f792e021f994223875793616c38777, type: 3}
+      isWrong: 0
+    - itemName: Umbrella
+      itemSprite: {fileID: 21300000, guid: bcf367373603e40159f8bc50a6f4556f, type: 3}
+      isWrong: 0
+    - itemName: Wallet
+      itemSprite: {fileID: 21300000, guid: 9cf811b6782be46f4a78c6854cf83e74, type: 3}
+      isWrong: 0
+    - itemName: Sun Glasses
+      itemSprite: {fileID: 21300000, guid: 5d7af227bcb69462081601bdd1ddfabd, type: 3}
+      isWrong: 0
+  searchBad:
+  - searchItems:
+    - itemName: Phone
+      itemSprite: {fileID: 21300000, guid: b7f415305601d4c70b859f5a65149552, type: 3}
+      isWrong: 0
+    - itemName: Keys
+      itemSprite: {fileID: 21300000, guid: b6f792e021f994223875793616c38777, type: 3}
+      isWrong: 0
+    - itemName: Grenade
+      itemSprite: {fileID: 21300000, guid: 9121ad0d43c8c4f5e81f713fbbc00386, type: 3}
+      isWrong: 1
+    - itemName: Wallet
+      itemSprite: {fileID: 21300000, guid: 9cf811b6782be46f4a78c6854cf83e74, type: 3}
+      isWrong: 0
+  drugGoodTests:
+  - THCLevel: 3.2
+    CBDLevel: 4.5
+    isTHCLevelWrong: 0
+    isCBDLevelWrong: 0
+  drugBadTests:
+  - THCLevel: 5.7
+    CBDLevel: 7.8
+    isTHCLevelWrong: 1
+    isCBDLevelWrong: 1
+  alcohalGoodTests:
+  - BACLevel: 2.5
+    CTDLevel: 1.8
+    isBACLevelWrong: 0
+    isCTDLevelWrong: 0
+  alcohalBadTests:
+  - BACLevel: 2.1
+    CTDLevel: 4.1
+    isBACLevelWrong: 0
+    isCTDLevelWrong: 1
